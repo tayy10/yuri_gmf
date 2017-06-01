@@ -263,7 +263,7 @@ header nav li:hover a::after {
     font-size: 26px;
     line-height: 1.8;
     font-weight: 400;
-    margin: 20px 0;
+    margin: 60px 0 20px;
 }
 .content-main .title a {
     display: inline-block;
