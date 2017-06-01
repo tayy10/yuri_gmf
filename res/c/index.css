@@ -327,3 +327,6 @@ header nav li:hover a::after {
     margin-right: 5px;
     overflow: hidden;
 }
+.tc {
+    text-align: center;
+}
