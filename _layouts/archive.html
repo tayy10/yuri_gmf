@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="category-archive">
+    <section>
+        <div class="title-category title-archive">
+            <div class="dot"></div>
+            <h2>好! 目前共计 {{site.posts | size}} 篇日志。 继续努力。</h2>
+        </div>
+        {% for year in site.years %}
+            <div class="sort_year">
+                <div class="title-category">
+                    <div class="dot"></div>
+                    <h2>{{ year.first.first.date | date: "%Y" }}</h2>
+                </div>
+                {% for month in year %}
+                    {% for post in month %}
+                        <article>
+                            <div class="dot"></div>
+                            <a href="{{ post.url}}"><time datetime="{{post.date}}">{{post.date | date: "%m-%d"}}</time>{{ post.title }}</a>
+                        </article>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </section>
+</div>

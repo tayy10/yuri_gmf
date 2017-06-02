@@ -28,7 +28,7 @@ highlighter: pygments
 encoding: utf-8
 
 timezone: Asia/Shanghai
-paginate: 8
+paginate: 10
 paginate_path: "/page:num"
 # Build settings
 markdown: kramdown
@@ -39,3 +39,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+tag_page_layout: tag_page
+tag_page_dir: tag
