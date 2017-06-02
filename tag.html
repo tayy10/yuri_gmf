@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<p class="all-categories-title tc">目前共计{{site.tags | size}}个分类</p>
+<p class="all-categories-title tc">目前共计{{site.tags | size}}个标签</p>
 {% for tag in site.tags %}
 <p><a class="link-category" href="{{ site.baseurl}}/tag/{{tag | first}}.html">{{tag | first}}</a></p>
 {% endfor %}
