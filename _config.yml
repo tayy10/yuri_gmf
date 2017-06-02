@@ -23,6 +23,7 @@ baseurl: "/yuri_gmf" # the subpath of your site, e.g. /blog
 url: "/yuri_gmf" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Yuri
 github_username:  Yuri
+safe: false
 
 timezone: Asia/Shanghai
 paginate: 8

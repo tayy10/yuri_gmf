@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="category-archive">
+    <section>
+        <div class="title-category">
+            <div class="dot"></div>
+            <h2>{{ page.category }} <span>分类</span></h2>
+        </div>
+        {% for cat in site.categories %}
+            {% if cat.first == page.category %}
+                {% for post in cat.last %}
+                    <article>
+                        <div class="dot"></div>
+                        <a href="{{ site.baseurl }}{{ post.url }}"><time datetime="{{post.date}}">{{post.date | date: "%m-%d"}}</time>{{ post.title }}</a>
+                    </article>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </section>
+</div>

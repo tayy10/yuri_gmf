@@ -1,0 +1,9 @@
+---
+layout: default
+title: 分类
+---
+<h2>categories</h2>
+<p class="all-categories-title tc">目前共计{{site.categories | size}}个分类</p>
+{% for cat in site.categories %}
+<p><a class="link-category" href="{{ site.baseurl}}/categories/{{ cat.first }}/index.html">{{cat | first}}({{cat| last | size}})</a></p>
+{% endfor %}
