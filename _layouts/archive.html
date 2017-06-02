@@ -18,7 +18,7 @@ layout: default
                     {% for post in month %}
                         <article>
                             <div class="dot"></div>
-                            <a href="{{ post.url}}"><time datetime="{{post.date}}">{{post.date | date: "%m-%d"}}</time>{{ post.title }}</a>
+                            <a href="{{site.baseurl}}{{ post.url}}"><time datetime="{{post.date}}">{{post.date | date: "%m-%d"}}</time>{{ post.title }}</a>
                         </article>
                     {% endfor %}
                 {% endfor %}
