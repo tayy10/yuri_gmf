@@ -24,6 +24,8 @@ url: "/yuri_gmf" # the base hostname & protocol for your site, e.g. http://examp
 twitter_username: Yuri
 github_username:  Yuri
 safe: false
+highlighter: pygments
+encoding: utf-8
 
 timezone: Asia/Shanghai
 paginate: 8
