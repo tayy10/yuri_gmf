@@ -417,3 +417,10 @@ h2, p {
     margin-right: 10px;
     font-size: 12px;
 }
+.category-archive .title-archive h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.category-archive .title-month h2 {
+    font-size: 16px;
+}
