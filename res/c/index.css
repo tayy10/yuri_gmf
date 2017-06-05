@@ -424,3 +424,16 @@ h2, p {
 .category-archive .title-month h2 {
     font-size: 16px;
 }
+
+.page-about {
+    line-height: 2;
+}
+.page-about .title-about {
+    font-size: 18px;
+}
+.page-about .cont-part {
+    margin: 15px 0 30px;
+}
+.page-about ul {
+    padding-left: 40px;
+}

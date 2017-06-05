@@ -16,9 +16,11 @@
             </div>
         </div>
         <script>
-            window.onload = function() {
-                document.getElementsByTagName("body")[0].className = "loaded";
-            }
+            (function() {
+                window.onload = function() {
+                    document.getElementsByTagName("body")[0].className = "loaded";
+                }
+            })();
         </script>
 　　</body>
 　　</html>
