@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    coderay (1.1.1)
     colorator (1.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
@@ -49,11 +50,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coderay
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-tagging
+  kramdown
   minima (~> 2.0)
+  rouge
   tzinfo-data
 
 RUBY VERSION

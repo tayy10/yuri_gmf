@@ -24,13 +24,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Yuri
 github_username:  Yuri
 safe: false
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
 
 timezone: Asia/Shanghai
 paginate: 10
 paginate_path: "/page:num"
 # Build settings
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 theme: minima
 gems:
@@ -43,3 +44,22 @@ exclude:
 
 tag_page_layout: tag_page
 tag_page_dir: tag
+
+kramdown:
+  # auto_ids:       true
+  # entity_output:  as_char
+  # toc_levels:     1..6
+  # smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: true
+  # footnote_nr:    1
+  syntax_highlighter: rouge
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  syntax_highlighter_opts:
+    # disable: false
+    css_class: 'highlight'
+    default_lang: markdown
+    # line_numbers: true

@@ -437,3 +437,23 @@ h2, p {
 .page-about ul {
     padding-left: 40px;
 }
+
+/*@import 'highlight.css';*/
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    border-left: none;
+    word-break: normal;
+}
+table tbody tr:nth-of-type(even) {
+    background-color: rgba(180,180,180,0.1);
+}
+table td, th {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    line-height: 20px;
+    vertical-align: middle;
+}
