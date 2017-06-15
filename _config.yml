@@ -63,3 +63,7 @@ kramdown:
     css_class: 'highlight'
     default_lang: markdown
     # line_numbers: true
+
+
+sass:
+  style: compressed
