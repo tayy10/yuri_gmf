@@ -6,8 +6,11 @@
     margin: 0;
     padding: 0;
 }
-ul, li {
+ul > li {
     list-style: none;
+}
+ol {
+    padding-left: 15px;
 }
 a {
     text-decoration: none;
