@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-15T18:07:51+08:00</updated><id>http://localhost:4000/</id><title type="html">Yuri</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">我为什么放弃前端工程师</title><link href="http://localhost:4000/diary/2017/06/15/diary.html" rel="alternate" type="text/html" title="我为什么放弃前端工程师" /><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><id>http://localhost:4000/diary/2017/06/15/diary</id><content type="html" xml:base="http://localhost:4000/diary/2017/06/15/diary.html">&lt;h1 id=&quot;hahaha&quot;&gt;hahaha&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-16T16:21:31+08:00</updated><id>http://localhost:4000/</id><title type="html">Yuri</title><subtitle>yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
+</subtitle><entry><title type="html">Jekyll 编译后head标签里面的内容错位到body中</title><link href="http://localhost:4000/jekyll/2017/06/16/jekyll-bug.html" rel="alternate" type="text/html" title="Jekyll 编译后head标签里面的内容错位到body中" /><published>2017-06-16T00:00:00+08:00</published><updated>2017-06-16T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/2017/06/16/jekyll-bug</id><content type="html" xml:base="http://localhost:4000/jekyll/2017/06/16/jekyll-bug.html">&lt;h1 id=&quot;jekyll神坑&quot;&gt;Jekyll神坑&lt;/h1&gt;
+
+&lt;p&gt;先说说百度到的最多的说法：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文件编码格式问题：UTF-8 without BOM&lt;br /&gt;
+自己检测文件编码无问题，错位未解决&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;标签未闭合&lt;br /&gt;
+自己检测标签都已闭合，错位未解决&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;自己解决方法&quot;&gt;自己解决方法&lt;/h2&gt;
+&lt;p&gt;具体怎么解决的自己也说不清楚，估计原因&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;标签顶格写&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;缩进使用Tab，切勿使用空格代替&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;示例代码如下：&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="bug" /><category term="jekyll" /><summary type="html">Jekyll神坑 先说说百度到的最多的说法： 文件编码格式问题：UTF-8 without BOM 自己检测文件编码无问题，错位未解决 标签未闭合 自己检测标签都已闭合，错位未解决</summary></entry><entry><title type="html">我为什么放弃前端工程师</title><link href="http://localhost:4000/diary/2017/06/15/diary.html" rel="alternate" type="text/html" title="我为什么放弃前端工程师" /><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><id>http://localhost:4000/diary/2017/06/15/diary</id><content type="html" xml:base="http://localhost:4000/diary/2017/06/15/diary.html">&lt;h1 id=&quot;hahaha&quot;&gt;hahaha&lt;/h1&gt;
 &lt;!--more--&gt;
 &lt;p&gt;123&lt;/p&gt;</content><author><name></name></author><category term="diary" /><summary type="html">hahaha</summary></entry><entry><title type="html">Markdown 常用命令指南</title><link href="http://localhost:4000/markdown/2017/06/01/diary.html" rel="alternate" type="text/html" title="Markdown 常用命令指南" /><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><id>http://localhost:4000/markdown/2017/06/01/diary</id><content type="html" xml:base="http://localhost:4000/markdown/2017/06/01/diary.html">&lt;h1 id=&quot;1标题&quot;&gt;1.标题&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# 一级标题&lt;/span&gt;
