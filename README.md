@@ -1,2 +1,0 @@
-# yuri_gmf
-blog
