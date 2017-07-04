@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Pages如何被百度收录
-categories: Github Pages
+categories: GithubPages
 tag: [github pages, spider, 百度蜘蛛]
 excerpt_separator: <!--more-->
 description: Github Pages如何被百度收录
@@ -29,7 +29,7 @@ keywords: github pages,蜘蛛,百度,coding,cname
 > 1. 分支跟`github`不一样
 > 2. 自定义域名需要银牌会员以上才能开启，银牌会员需要完善自己的账号资料即可开启（注意：不管是不是必填都要填才可以开启银牌会员）
 > 3. 使用`coding`的自定义域名，有一个问题，金牌及以上会员可以略过，如果是银牌会员，`coding`会先定向到一个`coding`提供的页面，之后才会重定向到你的自定义域名，除非。。。
-> 除非你在底部加上`powered by coding pages`
+> 除非你在底部加上`Hosted by coding pages`
 >
 > ### 第四步，针对`git`的`push`添加多个源
 ```javascript
