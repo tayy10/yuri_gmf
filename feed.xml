@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-03T14:19:48+08:00</updated><id>http://localhost:4000/</id><title type="html">Yuri</title><subtitle>yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
+</subtitle><entry><title type="html">Jekyll 编译后head标签里面的内容错位到body中</title><link href="http://localhost:4000/jekyll/2017/06/16/jekyll-bug.html" rel="alternate" type="text/html" title="Jekyll 编译后head标签里面的内容错位到body中" /><published>2017-06-16T00:00:00+08:00</published><updated>2017-06-16T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/2017/06/16/jekyll-bug</id><content type="html" xml:base="http://localhost:4000/jekyll/2017/06/16/jekyll-bug.html">&lt;h1 id=&quot;jekyll神坑&quot;&gt;Jekyll神坑&lt;/h1&gt;
+
+&lt;p&gt;先说说百度到的最多的说法：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;文件编码格式问题：UTF-8 without BOM&lt;br /&gt;
+自己检测文件编码无问题，错位未解决&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;标签未闭合&lt;br /&gt;
+自己检测标签都已闭合，错位未解决&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;自己解决方法&quot;&gt;自己解决方法&lt;/h2&gt;
+&lt;p&gt;具体怎么解决的自己也说不清楚，估计原因&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;标签顶格写&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;缩进使用Tab，切勿使用空格代替&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;示例代码如下：&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="bug" /><category term="jekyll" /><summary type="html">Jekyll神坑 先说说百度到的最多的说法： 文件编码格式问题：UTF-8 without BOM 自己检测文件编码无问题，错位未解决 标签未闭合 自己检测标签都已闭合，错位未解决</summary></entry><entry><title type="html">我为什么放弃前端工程师</title><link href="http://localhost:4000/diary/2017/06/15/diary.html" rel="alternate" type="text/html" title="我为什么放弃前端工程师" /><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><id>http://localhost:4000/diary/2017/06/15/diary</id><content type="html" xml:base="http://localhost:4000/diary/2017/06/15/diary.html">&lt;h1 id=&quot;hahaha&quot;&gt;hahaha&lt;/h1&gt;
+&lt;!--more--&gt;
+&lt;p&gt;123&lt;/p&gt;</content><author><name></name></author><category term="diary" /><summary type="html">hahaha</summary></entry><entry><title type="html">Markdown 常用命令指南</title><link href="http://localhost:4000/markdown/2017/06/01/diary.html" rel="alternate" type="text/html" title="Markdown 常用命令指南" /><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><id>http://localhost:4000/markdown/2017/06/01/diary</id><content type="html" xml:base="http://localhost:4000/markdown/2017/06/01/diary.html">&lt;h1 id=&quot;1标题&quot;&gt;1.标题&lt;/h1&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# 一级标题&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;## 二级标题&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;### 三级标题&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;#### 四级标题&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;##### 五级标题&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;###### 六级标题&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!--more--&gt;
+
+&lt;h1 id=&quot;2-列表&quot;&gt;2. 列表&lt;/h1&gt;
+&lt;h2 id=&quot;1-无序列表&quot;&gt;1. 无序列表&lt;/h2&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 文本1
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 文本2
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 文本3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;2-有序列表&quot;&gt;2. 有序列表&lt;/h2&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; 文本1
+&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; 文本2
+&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; 文本3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;3-链接和图片&quot;&gt;3. 链接和图片&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;超链接
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;百度&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.baidu.com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;图片
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;!&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;](图片链接地址)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;4-引用&quot;&gt;4. 引用&lt;/h1&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;5-粗体和斜体&quot;&gt;5. 粗体和斜体&lt;/h1&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ge&quot;&gt;*斜体*&lt;/span&gt;
+&lt;span class=&quot;gs&quot;&gt;**粗体**&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;6-代码引用&quot;&gt;6. 代码引用&lt;/h1&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;单行代码使用&lt;span class=&quot;sb&quot;&gt;`...`&lt;/span&gt;包裹
+多行代码使用&lt;span class=&quot;sb&quot;&gt;```...```&lt;/span&gt;包裹
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;7-表格&quot;&gt;7. 表格&lt;/h1&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dog | bird | cat
+----|------|----
+foo | foo  | foo
+bar | bar  | bar
+baz | baz  | baz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;dog&lt;/th&gt;
+      &lt;th&gt;bird&lt;/th&gt;
+      &lt;th&gt;cat&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;foo&lt;/td&gt;
+      &lt;td&gt;foo&lt;/td&gt;
+      &lt;td&gt;foo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bar&lt;/td&gt;
+      &lt;td&gt;bar&lt;/td&gt;
+      &lt;td&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;baz&lt;/td&gt;
+      &lt;td&gt;baz&lt;/td&gt;
+      &lt;td&gt;baz&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="usage" /><category term="markdown" /><summary type="html">1.标题 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题</summary></entry></feed>
