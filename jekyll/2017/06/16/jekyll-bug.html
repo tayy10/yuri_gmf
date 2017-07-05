@@ -33,6 +33,7 @@
         <header>
     <div class="content-header">
         <div class="logo"><a href="/index.html">Yuri</a></div>
+        <div class="nav-logo-container"><div class="nav-logo"></div></div>
         <nav>
             <ul>
                 <li>
@@ -54,7 +55,6 @@
         </nav>
     </div>
 </header>
-
             <!-- 内容部分 -->
         <div class="content-main">
             <h2 class="title tc">Jekyll 编译后head标签里面的内容错位到body中</h2>
@@ -107,9 +107,39 @@
     </div>
     <script>
         (function() {
+            var _bodyEle = document.getElementsByTagName("body")[0],
+                _wrapperEle = document.querySelector('.content-main');
+
             window.onload = function() {
-                document.getElementsByTagName("body")[0].className = "loaded";
+                _bodyEle.className = "loaded";
             }
+
+            // console.log(document.querySelector('.nav-logo-container'));
+            var _navEle = document.querySelector('.nav-logo-container'),
+                _navContent = document.getElementsByTagName('nav')[0],
+                _closeEle = document.querySelector('.nav-close');
+
+            _navEle.onclick = function() {
+                var _cls = _navEle.className;
+                if (_cls.indexOf('nav-close') > -1) {
+                    _navEle.className = 'nav-logo-container';
+                    _navContent.className = "";
+                }
+                else {
+                    _navEle.className = 'nav-logo-container nav-close';
+                    _navContent.className = "show";
+                }
+            };
+
+            _wrapperEle.onclick = function() {
+                _navEle.className = 'nav-logo-container';
+                _navContent.className = "";
+            }
+
+            // document.querySelector('.nav-logo').click(function() {
+            //     document.getElementsByTagName('nav')[0].classList.add('show');
+            // });
+
         })();
     </script>
 </body>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="baidu-site-verification" content="sOhZbY9AJj" />
     <meta name="google-site-verification" content="gI25vyO70Vad6i0uv323sbOlYrykpT2HAxO_lZIuV0s" />
-    <meta name="keywords" content="github pages,蜘蛛,百度,coding,cname">
+    <meta name="keywords" content="githubPages,蜘蛛,百度,coding,cname">
     <meta name="description" content="Github Pages如何被百度收录">
     <link rel="stylesheet" href="/res/c/index.css#20170616_01">
     <script>(function(win,doc){win.YYRUM={};YYRUM.info={appId:'pAJOSEVdgDXi6N7Gzj4tAwu73Odayb08',beacon:'https://web.uyun.cn/connect',agent:'https://web.uyun.cn/buriedPoint/YYRUM.js'};var loadSource={createScript:function(src){var d=doc,f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.type='text/javascript';s.src=src; f.parentNode.insertBefore(s,f);return s;}};var script=loadSource.createScript(YYRUM.info.agent);win.onerror=function(msg, url,line,col,error){YYRUM.info.errorData={msg:msg,url:url,line:line,col:col,error:error}};if(script.readyState){script.onreadystatechange=function(){if(script.readyState=='loaded'||script.readyState=='complete'){script.onreadystatechange=null; YYRUM.report.installGlobalHandler()}};}else{script.onload=function(){YYRUM.report.installGlobalHandler()};}})(window,document)</script>
@@ -33,6 +33,7 @@
         <header>
     <div class="content-header">
         <div class="logo"><a href="/index.html">Yuri</a></div>
+        <div class="nav-logo-container"><div class="nav-logo"></div></div>
         <nav>
             <ul>
                 <li>
@@ -54,7 +55,6 @@
         </nav>
     </div>
 </header>
-
             <!-- 内容部分 -->
         <div class="content-main">
             <h2 class="title tc">Github Pages如何被百度收录</h2>
@@ -124,9 +124,39 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
     </div>
     <script>
         (function() {
+            var _bodyEle = document.getElementsByTagName("body")[0],
+                _wrapperEle = document.querySelector('.content-main');
+
             window.onload = function() {
-                document.getElementsByTagName("body")[0].className = "loaded";
+                _bodyEle.className = "loaded";
             }
+
+            // console.log(document.querySelector('.nav-logo-container'));
+            var _navEle = document.querySelector('.nav-logo-container'),
+                _navContent = document.getElementsByTagName('nav')[0],
+                _closeEle = document.querySelector('.nav-close');
+
+            _navEle.onclick = function() {
+                var _cls = _navEle.className;
+                if (_cls.indexOf('nav-close') > -1) {
+                    _navEle.className = 'nav-logo-container';
+                    _navContent.className = "";
+                }
+                else {
+                    _navEle.className = 'nav-logo-container nav-close';
+                    _navContent.className = "show";
+                }
+            };
+
+            _wrapperEle.onclick = function() {
+                _navEle.className = 'nav-logo-container';
+                _navContent.className = "";
+            }
+
+            // document.querySelector('.nav-logo').click(function() {
+            //     document.getElementsByTagName('nav')[0].classList.add('show');
+            // });
+
         })();
     </script>
 </body>
