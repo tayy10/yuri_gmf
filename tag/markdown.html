@@ -10,6 +10,7 @@
     <meta name="keywords" content="yuri,博客,日记,前端,极客,jekyll">
     <meta name="description" content="yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
 ">
+    <link rel="canonical" href="/tag/markdown.html">
     <link rel="stylesheet" href="/res/c/index.css#20170616_01">
     <script>(function(win,doc){win.YYRUM={};YYRUM.info={appId:'pAJOSEVdgDXi6N7Gzj4tAwu73Odayb08',beacon:'https://web.uyun.cn/connect',agent:'https://web.uyun.cn/buriedPoint/YYRUM.js'};var loadSource={createScript:function(src){var d=doc,f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.type='text/javascript';s.src=src; f.parentNode.insertBefore(s,f);return s;}};var script=loadSource.createScript(YYRUM.info.agent);win.onerror=function(msg, url,line,col,error){YYRUM.info.errorData={msg:msg,url:url,line:line,col:col,error:error}};if(script.readyState){script.onreadystatechange=function(){if(script.readyState=='loaded'||script.readyState=='complete'){script.onreadystatechange=null; YYRUM.report.installGlobalHandler()}};}else{script.onload=function(){YYRUM.report.installGlobalHandler()};}})(window,document)</script>
     <!--添加百度推送-->
@@ -58,7 +59,8 @@
 </header>
             <!-- 内容部分 -->
         <div class="content-main">
-            <div class="category-archive">
+            <div class="content-1020 content-auto">
+                <div class="category-archive">
     <section>
         <div class="title-category">
             <div class="dot"></div>
@@ -95,44 +97,85 @@
             
         
     </section>
-</div>                
+</div>  
+            </div>         
         </div>
     </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script>
         (function() {
-            var _bodyEle = document.getElementsByTagName("body")[0],
-                _wrapperEle = document.querySelector('.content-main');
+            var _bodyEle = $('body'),
+                _wrapperEle = $('.content-main');
 
             window.onload = function() {
-                _bodyEle.className = "loaded";
+                _bodyEle.addClass("loaded");
             }
 
             // console.log(document.querySelector('.nav-logo-container'));
-            var _navEle = document.querySelector('.nav-logo-container'),
-                _navContent = document.getElementsByTagName('nav')[0],
-                _closeEle = document.querySelector('.nav-close');
+            var _navEle = $('.nav-logo-container'),
+                _navContent = $('nav'),
+                _closeEle = $('.nav-close');
 
-            _navEle.onclick = function() {
-                var _cls = _navEle.className;
-                if (_cls.indexOf('nav-close') > -1) {
-                    _navEle.className = 'nav-logo-container';
-                    _navContent.className = "";
-                }
-                else {
-                    _navEle.className = 'nav-logo-container nav-close';
-                    _navContent.className = "show";
-                }
-            };
+            _navEle.bind('click', function () {
+                _navEle.toggleClass("nav-close");
+                _navContent.toggleClass("show");
+            })
 
-            _wrapperEle.onclick = function() {
-                _navEle.className = 'nav-logo-container';
-                _navContent.className = "";
-            }
+            // _navEle.onclick = function() {
+            //     var _cls = _navEle.className;
+            //     if (_cls.indexOf('nav-close') > -1) {
+            //         _navEle.className = 'nav-logo-container';
+            //         _navContent.className = "";
+            //     }
+            //     else {
+            //         _navEle.className = 'nav-logo-container nav-close';
+            //         _navContent.className = "show";
+            //     }
+            // };
+            // _wrapperEle.bind('click', function() {
+            //     _navEle.toggleClass("nav-close");
+            //     _navContent.toggleClass("show");
+            // })
+            // _wrapperEle.onclick = function() {
+            //     _navEle.className = 'nav-logo-container';
+            //     _navContent.className = "";
+            // }
 
             // document.querySelector('.nav-logo').click(function() {
             //     document.getElementsByTagName('nav')[0].classList.add('show');
             // });
+            var icon_sidebar = $('.icon-sidebar'),
+                _sidebar = $('#toc-container'),
+                _content = $('.content-1020');
+            
+            if (_sidebar.length > 0) {
+                _content.removeClass('content-auto');
+            }
 
+            // console.log(_sidebar);
+            icon_sidebar.bind('click', function() {
+                icon_sidebar.toggleClass('icon-active');
+                _sidebar.toggleClass('sidebar-hidden');
+                _content.toggleClass('content-auto');
+            });
+
+
+            $('.content-main').scroll(function() {
+                var _s = $('.content-main').scrollTop();
+                // console.log($('.content-main').scrollTop());
+                if (_s > 0)
+                    $('.icon-top').removeClass('hidden');
+                else
+                    $('.icon-top').addClass('hidden');
+            });
+
+            _wrapperEle.bind('click', '.icon-top', function() {
+                $('.content-main').animate({scrollTop: 0}, 500);
+            })
+            // $('.icon-top').click(function() {
+            //     // console.log(111);
+                
+            // });
         })();
     </script>
 </body>

@@ -9,6 +9,7 @@
     <meta name="google-site-verification" content="gI25vyO70Vad6i0uv323sbOlYrykpT2HAxO_lZIuV0s" />
     <meta name="keywords" content="yuri,markdown,命令,jekyll">
     <meta name="description" content="markdown常用命令指南。markdown标题、列表、链接和图片、引用、粗体和斜体、代码引用和表格的写法。">
+    <link rel="canonical" href="/markdown/2017/06/01/diary.html">
     <link rel="stylesheet" href="/res/c/index.css#20170616_01">
     <script>(function(win,doc){win.YYRUM={};YYRUM.info={appId:'pAJOSEVdgDXi6N7Gzj4tAwu73Odayb08',beacon:'https://web.uyun.cn/connect',agent:'https://web.uyun.cn/buriedPoint/YYRUM.js'};var loadSource={createScript:function(src){var d=doc,f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.type='text/javascript';s.src=src; f.parentNode.insertBefore(s,f);return s;}};var script=loadSource.createScript(YYRUM.info.agent);win.onerror=function(msg, url,line,col,error){YYRUM.info.errorData={msg:msg,url:url,line:line,col:col,error:error}};if(script.readyState){script.onreadystatechange=function(){if(script.readyState=='loaded'||script.readyState=='complete'){script.onreadystatechange=null; YYRUM.report.installGlobalHandler()}};}else{script.onload=function(){YYRUM.report.installGlobalHandler()};}})(window,document)</script>
     <!--添加百度推送-->
@@ -57,12 +58,56 @@
 </header>
             <!-- 内容部分 -->
         <div class="content-main">
-            <h2 class="title tc">Markdown 常用命令指南</h2>
+            <div class="content-1020 content-auto">
+                <div id="toc-container">
+  <table class="toc" id="toc">
+    <tbody>
+      <tr>
+        <td>
+          <div id="toctitle">
+            <h2>文章目录</h2>
+          </div>
+          <ul>
+            <li class="toc_level-1 toc_section-1">
+              <a href="#tocAnchor-1-1"><span class="tocnumber">1</span> <span class="toctext">1.标题</span></a>
+            </li>
+            <li class="toc_level-1 toc_section-2">
+              <a href="#tocAnchor-1-2"><span class="tocnumber">2</span> <span class="toctext">2. 列表</span></a>
+              <ul>
+                <li class="toc_level-2 toc_section-3">
+                  <a href="#tocAnchor-1-2-1"><span class="tocnumber">2.1</span> <span class="toctext">1. 无序列表</span></a>
+                </li>
+                <li class="toc_level-2 toc_section-4">
+                  <a href="#tocAnchor-1-2-2"><span class="tocnumber">2.2</span> <span class="toctext">2. 有序列表</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="toc_level-1 toc_section-5">
+              <a href="#tocAnchor-1-5"><span class="tocnumber">3</span> <span class="toctext">3. 链接和图片</span></a>
+            </li>
+            <li class="toc_level-1 toc_section-6">
+              <a href="#tocAnchor-1-6"><span class="tocnumber">4</span> <span class="toctext">4. 引用</span></a>
+            </li>
+            <li class="toc_level-1 toc_section-7">
+              <a href="#tocAnchor-1-7"><span class="tocnumber">5</span> <span class="toctext">5. 粗体和斜体</span></a>
+            </li>
+            <li class="toc_level-1 toc_section-8">
+              <a href="#tocAnchor-1-8"><span class="tocnumber">6</span> <span class="toctext">6. 代码引用</span></a>
+            </li>
+            <li class="toc_level-1 toc_section-9">
+              <a href="#tocAnchor-1-9"><span class="tocnumber">7</span> <span class="toctext">7. 表格</span></a>
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div><h2 class="title tc">Markdown 常用命令指南</h2>
 <div class="tc">
-    <span class="subtitle"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4099"><path d="M558.531758 465.438112 465.438112 465.438112 465.438112 558.531758 558.531758 558.531758 558.531758 465.438112ZM558.531758 628.344463 465.438112 628.344463 465.438112 721.438109 558.531758 721.438109 558.531758 628.344463ZM930.906341 93.093646 837.812695 93.093646 837.812695 23.280941C837.812695 10.420706 827.39199 0 814.531755 0 801.671519 0 791.280931 10.420706 791.280931 23.280941L791.280931 93.093646 232.719056 93.093646 232.719056 23.280941C232.719056 10.420706 222.29835 0 209.438115 0 196.57788 0 186.187292 10.420706 186.187292 23.280941L186.187292 93.093646 93.093646 93.093646C41.682823 93.093646 0 134.776469 0 186.187292L0 325.812702 0 372.374584 0 930.906341C0 982.317164 41.682823 1023.999987 93.093646 1023.999987L930.906341 1023.999987C982.317164 1023.999987 1023.999987 982.317164 1023.999987 930.906341L1023.999987 372.374584 1023.999987 325.812702 1023.999987 186.187292C1023.999987 134.776469 982.317164 93.093646 930.906341 93.093646ZM977.438105 930.906341C977.438105 956.596694 956.596694 977.438105 930.906341 977.438105L93.093646 977.438105C67.373176 977.438105 46.531764 956.596694 46.531764 930.906341L46.531764 372.374584 977.438105 372.374584 977.438105 930.906341ZM977.438105 325.812702 46.531764 325.812702 46.531764 186.187292C46.531764 160.466822 67.373176 139.62541 93.093646 139.62541L186.187292 139.62541 186.187292 209.438115C186.187292 222.29835 196.57788 232.719056 209.438115 232.719056 222.29835 232.719056 232.719056 222.29835 232.719056 209.438115L232.719056 139.62541 791.280931 139.62541 791.280931 209.438115C791.280931 222.29835 801.671519 232.719056 814.531755 232.719056 827.39199 232.719056 837.812695 222.29835 837.812695 209.438115L837.812695 139.62541 930.906341 139.62541C956.596694 139.62541 977.438105 160.466822 977.438105 186.187292L977.438105 325.812702ZM791.280931 628.344463 698.187285 628.344463 698.187285 721.438109 791.280931 721.438109 791.280931 628.344463ZM791.280931 465.438112 698.187285 465.438112 698.187285 558.531758 791.280931 558.531758 791.280931 465.438112ZM558.531758 791.280931 465.438112 791.280931 465.438112 884.374577 558.531758 884.374577 558.531758 791.280931ZM325.812702 791.280931 232.719056 791.280931 232.719056 884.374577 325.812702 884.374577 325.812702 791.280931ZM325.812702 465.438112 232.719056 465.438112 232.719056 558.531758 325.812702 558.531758 325.812702 465.438112ZM325.812702 628.344463 232.719056 628.344463 232.719056 721.438109 325.812702 721.438109 325.812702 628.344463Z" p-id="4100"></path></svg>发表于:01 Jun 2017&ensp;|&ensp;<svg class="icon" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4566"><path d="M107.6754 222.0195h814.9628686526682c6.261 0 11.7425-2.3514 16.4385-7.0472 4.701-4.6948 7.0465-10.371 7.0465-17.0215 0-6.6685-2.3455-12.1508-7.0465-16.4458-4.696-4.3051-10.1785-6.4556-16.4385-6.4556H107.67541076334375c-7.0475 0-12.7229 2.1505-17.0302 6.4556-4.3053 4.3071-6.4559 9.7874-6.4559 16.4458 0 6.6505 2.1506 12.3266 6.4559 17.0215C94.9525 219.6681 100.6279 222.0195 107.6754 222.0195L107.6754 222.0195zM922.6383 788.0107H107.67541076334375c-7.0475 0-12.7229 2.3454-17.0302 7.0392-4.3053 4.7028-6.4559 10.1791-6.4559 16.4458 0 6.2618 2.1506 11.742 6.4559 16.4379 4.3073 4.6958 9.9826 7.0472 17.0302 7.0472h814.9628686526682c6.261 0 11.7425-2.3514 16.4385-7.0472 4.701-4.6958 7.0465-10.1771 7.0465-16.4379 0-6.2668-2.3455-11.743-7.0465-16.4458C934.3808 790.3561 928.8993 788.0107 922.6383 788.0107L922.6383 788.0107zM922.6383 481.5305H107.67541076334375c-7.0475 0-12.7229 2.3444-17.0302 7.0472-4.3053 4.6948-6.4559 10.1761-6.4559 16.4379 0 6.2598 2.1506 11.743 6.4559 16.4389 4.3073 4.6948 9.9826 7.0462 17.0302 7.0462h814.9628686526682c6.261 0 11.7425-2.3514 16.4385-7.0462 4.701-4.6958 7.0465-10.1801 7.0465-16.4389 0-6.2618-2.3455-11.742-7.0465-16.4379C934.3808 483.8739 928.8993 481.5305 922.6383 481.5305L922.6383 481.5305zM922.6383 481.5305" p-id="4567"></path></svg>分类于:<a href="/categories/markdown/index.html" class="categories">markdown</a></span>
+    <span class="subtitle"><svg class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4099"><path d="M558.531758 465.438112 465.438112 465.438112 465.438112 558.531758 558.531758 558.531758 558.531758 465.438112ZM558.531758 628.344463 465.438112 628.344463 465.438112 721.438109 558.531758 721.438109 558.531758 628.344463ZM930.906341 93.093646 837.812695 93.093646 837.812695 23.280941C837.812695 10.420706 827.39199 0 814.531755 0 801.671519 0 791.280931 10.420706 791.280931 23.280941L791.280931 93.093646 232.719056 93.093646 232.719056 23.280941C232.719056 10.420706 222.29835 0 209.438115 0 196.57788 0 186.187292 10.420706 186.187292 23.280941L186.187292 93.093646 93.093646 93.093646C41.682823 93.093646 0 134.776469 0 186.187292L0 325.812702 0 372.374584 0 930.906341C0 982.317164 41.682823 1023.999987 93.093646 1023.999987L930.906341 1023.999987C982.317164 1023.999987 1023.999987 982.317164 1023.999987 930.906341L1023.999987 372.374584 1023.999987 325.812702 1023.999987 186.187292C1023.999987 134.776469 982.317164 93.093646 930.906341 93.093646ZM977.438105 930.906341C977.438105 956.596694 956.596694 977.438105 930.906341 977.438105L93.093646 977.438105C67.373176 977.438105 46.531764 956.596694 46.531764 930.906341L46.531764 372.374584 977.438105 372.374584 977.438105 930.906341ZM977.438105 325.812702 46.531764 325.812702 46.531764 186.187292C46.531764 160.466822 67.373176 139.62541 93.093646 139.62541L186.187292 139.62541 186.187292 209.438115C186.187292 222.29835 196.57788 232.719056 209.438115 232.719056 222.29835 232.719056 232.719056 222.29835 232.719056 209.438115L232.719056 139.62541 791.280931 139.62541 791.280931 209.438115C791.280931 222.29835 801.671519 232.719056 814.531755 232.719056 827.39199 232.719056 837.812695 222.29835 837.812695 209.438115L837.812695 139.62541 930.906341 139.62541C956.596694 139.62541 977.438105 160.466822 977.438105 186.187292L977.438105 325.812702ZM791.280931 628.344463 698.187285 628.344463 698.187285 721.438109 791.280931 721.438109 791.280931 628.344463ZM791.280931 465.438112 698.187285 465.438112 698.187285 558.531758 791.280931 558.531758 791.280931 465.438112ZM558.531758 791.280931 465.438112 791.280931 465.438112 884.374577 558.531758 884.374577 558.531758 791.280931ZM325.812702 791.280931 232.719056 791.280931 232.719056 884.374577 325.812702 884.374577 325.812702 791.280931ZM325.812702 465.438112 232.719056 465.438112 232.719056 558.531758 325.812702 558.531758 325.812702 465.438112ZM325.812702 628.344463 232.719056 628.344463 232.719056 721.438109 325.812702 721.438109 325.812702 628.344463Z" p-id="4100"></path></svg>发表于:01 Jun 2017 | <svg class="icon" viewbox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4566"><path d="M107.6754 222.0195h814.9628686526682c6.261 0 11.7425-2.3514 16.4385-7.0472 4.701-4.6948 7.0465-10.371 7.0465-17.0215 0-6.6685-2.3455-12.1508-7.0465-16.4458-4.696-4.3051-10.1785-6.4556-16.4385-6.4556H107.67541076334375c-7.0475 0-12.7229 2.1505-17.0302 6.4556-4.3053 4.3071-6.4559 9.7874-6.4559 16.4458 0 6.6505 2.1506 12.3266 6.4559 17.0215C94.9525 219.6681 100.6279 222.0195 107.6754 222.0195L107.6754 222.0195zM922.6383 788.0107H107.67541076334375c-7.0475 0-12.7229 2.3454-17.0302 7.0392-4.3053 4.7028-6.4559 10.1791-6.4559 16.4458 0 6.2618 2.1506 11.742 6.4559 16.4379 4.3073 4.6958 9.9826 7.0472 17.0302 7.0472h814.9628686526682c6.261 0 11.7425-2.3514 16.4385-7.0472 4.701-4.6958 7.0465-10.1771 7.0465-16.4379 0-6.2668-2.3455-11.743-7.0465-16.4458C934.3808 790.3561 928.8993 788.0107 922.6383 788.0107L922.6383 788.0107zM922.6383 481.5305H107.67541076334375c-7.0475 0-12.7229 2.3444-17.0302 7.0472-4.3053 4.6948-6.4559 10.1761-6.4559 16.4379 0 6.2598 2.1506 11.743 6.4559 16.4389 4.3073 4.6948 9.9826 7.0462 17.0302 7.0462h814.9628686526682c6.261 0 11.7425-2.3514 16.4385-7.0462 4.701-4.6958 7.0465-10.1801 7.0465-16.4389 0-6.2618-2.3455-11.742-7.0465-16.4379C934.3808 483.8739 928.8993 481.5305 922.6383 481.5305L922.6383 481.5305zM922.6383 481.5305" p-id="4567"></path></svg>分类于:<a href="/categories/markdown/index.html" class="categories">markdown</a></span>
 </div>
 <div>
-    <h1 id="1标题">1.标题</h1>
+    <h1 id="tocAnchor-1-1">1.标题</h1>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="gh"># 一级标题</span>
 <span class="gu">## 二级标题</span>
 <span class="gu">### 三级标题</span>
@@ -73,22 +118,22 @@
 </div>
 <!--more-->
 
-<h1 id="2-列表">2. 列表</h1>
-<h2 id="1-无序列表">1. 无序列表</h2>
+<h1 id="tocAnchor-1-2">2. 列表</h1>
+<h2 id="tocAnchor-1-2-1">1. 无序列表</h2>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="p">-</span> 文本1
 <span class="p">-</span> 文本2
 <span class="p">-</span> 文本3
 </code></pre>
 </div>
 
-<h2 id="2-有序列表">2. 有序列表</h2>
+<h2 id="tocAnchor-1-2-2">2. 有序列表</h2>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="p">1.</span> 文本1
 <span class="p">2.</span> 文本2
 <span class="p">3.</span> 文本3
 </code></pre>
 </div>
 
-<h1 id="3-链接和图片">3. 链接和图片</h1>
+<h1 id="tocAnchor-1-5">3. 链接和图片</h1>
 <ul>
   <li>超链接
     <div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="p">[</span><span class="nv">百度</span><span class="p">](</span><span class="sx">https://www.baidu.com</span><span class="p">)</span>
@@ -102,24 +147,24 @@
   </li>
 </ul>
 
-<h1 id="4-引用">4. 引用</h1>
+<h1 id="tocAnchor-1-6">4. 引用</h1>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="gt">&gt; 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 </span>
 </code></pre>
 </div>
 
-<h1 id="5-粗体和斜体">5. 粗体和斜体</h1>
+<h1 id="tocAnchor-1-7">5. 粗体和斜体</h1>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="ge">*斜体*</span>
 <span class="gs">**粗体**</span>
 </code></pre>
 </div>
 
-<h1 id="6-代码引用">6. 代码引用</h1>
+<h1 id="tocAnchor-1-8">6. 代码引用</h1>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code>单行代码使用<span class="sb">`...`</span>包裹
 多行代码使用<span class="sb">```...```</span>包裹
 </code></pre>
 </div>
 
-<h1 id="7-表格">7. 表格</h1>
+<h1 id="tocAnchor-1-9">7. 表格</h1>
 <div class="language-markdown highlighter-rouge"><pre class="highlight"><code>| Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
@@ -190,44 +235,89 @@ baz | baz  | baz
   </tbody>
 </table>
 
-</div>                
+    <aside class="sidebar">
+    <div class="icon-aside icon-sidebar icon-active"><div class="switch-sidebar"></div></div>
+    <div class="icon-aside icon-top hidden"><div class="switch-top"></div></div>
+</aside>
+</div>  
+            </div>         
         </div>
     </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script>
         (function() {
-            var _bodyEle = document.getElementsByTagName("body")[0],
-                _wrapperEle = document.querySelector('.content-main');
+            var _bodyEle = $('body'),
+                _wrapperEle = $('.content-main');
 
             window.onload = function() {
-                _bodyEle.className = "loaded";
+                _bodyEle.addClass("loaded");
             }
 
             // console.log(document.querySelector('.nav-logo-container'));
-            var _navEle = document.querySelector('.nav-logo-container'),
-                _navContent = document.getElementsByTagName('nav')[0],
-                _closeEle = document.querySelector('.nav-close');
+            var _navEle = $('.nav-logo-container'),
+                _navContent = $('nav'),
+                _closeEle = $('.nav-close');
 
-            _navEle.onclick = function() {
-                var _cls = _navEle.className;
-                if (_cls.indexOf('nav-close') > -1) {
-                    _navEle.className = 'nav-logo-container';
-                    _navContent.className = "";
-                }
-                else {
-                    _navEle.className = 'nav-logo-container nav-close';
-                    _navContent.className = "show";
-                }
-            };
+            _navEle.bind('click', function () {
+                _navEle.toggleClass("nav-close");
+                _navContent.toggleClass("show");
+            })
 
-            _wrapperEle.onclick = function() {
-                _navEle.className = 'nav-logo-container';
-                _navContent.className = "";
-            }
+            // _navEle.onclick = function() {
+            //     var _cls = _navEle.className;
+            //     if (_cls.indexOf('nav-close') > -1) {
+            //         _navEle.className = 'nav-logo-container';
+            //         _navContent.className = "";
+            //     }
+            //     else {
+            //         _navEle.className = 'nav-logo-container nav-close';
+            //         _navContent.className = "show";
+            //     }
+            // };
+            // _wrapperEle.bind('click', function() {
+            //     _navEle.toggleClass("nav-close");
+            //     _navContent.toggleClass("show");
+            // })
+            // _wrapperEle.onclick = function() {
+            //     _navEle.className = 'nav-logo-container';
+            //     _navContent.className = "";
+            // }
 
             // document.querySelector('.nav-logo').click(function() {
             //     document.getElementsByTagName('nav')[0].classList.add('show');
             // });
+            var icon_sidebar = $('.icon-sidebar'),
+                _sidebar = $('#toc-container'),
+                _content = $('.content-1020');
+            
+            if (_sidebar.length > 0) {
+                _content.removeClass('content-auto');
+            }
 
+            // console.log(_sidebar);
+            icon_sidebar.bind('click', function() {
+                icon_sidebar.toggleClass('icon-active');
+                _sidebar.toggleClass('sidebar-hidden');
+                _content.toggleClass('content-auto');
+            });
+
+
+            $('.content-main').scroll(function() {
+                var _s = $('.content-main').scrollTop();
+                // console.log($('.content-main').scrollTop());
+                if (_s > 0)
+                    $('.icon-top').removeClass('hidden');
+                else
+                    $('.icon-top').addClass('hidden');
+            });
+
+            _wrapperEle.bind('click', '.icon-top', function() {
+                $('.content-main').animate({scrollTop: 0}, 500);
+            })
+            // $('.icon-top').click(function() {
+            //     // console.log(111);
+                
+            // });
         })();
     </script>
 </body>
