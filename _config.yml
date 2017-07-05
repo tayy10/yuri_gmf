@@ -67,3 +67,5 @@ kramdown:
 
 sass:
   style: compressed
+
+contentsLabel: 文章目录

@@ -22,9 +22,9 @@ keywords: githubPages,蜘蛛,百度,coding,cname
 > ### 首先第一步，需要在`Github`上新建一个项目，这个问题应该不大吧，既然都用`Github Pages`了，这一步就不重复赘述了。
 >
 > ### 其次第二步，在`coding.net`中从`Github`导入项目
-> ![导入项目](https://ooo.0o0.ooo/2017/07/04/595b5b1c7c23d.png)
+> ![导入项目](https://ooo.0o0.ooo/2017/07/05/595ce5dcb28a9.png)
 > ### 第三步，开启`coding`的`pages`服务，`coding`的`pages`服务跟`Github`的`pages`服务的区别在于：`coding`使用的分支是`master`或`coding-pages`,`Github`使用的分支是`master`跟`gh-pages`,为了统一，建议使用`master`分支。
->![设置`pages`分支及自定义域名](https://ooo.0o0.ooo/2017/07/04/595b607d07fde.png)
+>![设置`pages`分支及自定义域名](https://ooo.0o0.ooo/2017/07/05/595ce60dd86a9.png)
 > PS:`coding`的坑：
 > 1. 分支跟`github`不一样
 > 2. 自定义域名需要银牌会员以上才能开启，银牌会员需要完善自己的账号资料即可开启（注意：不管是不是必填都要填才可以开启银牌会员）
@@ -43,7 +43,7 @@ git remote set-url --add --push origin ****
 > ### 第五步，通过`DNSPod`对域名进行解析
 > 添加`CNAME`解析，针对百度解析值`pages.coding.me`，其余的解析到`github.io`。
 > 可能有人要问，为啥不直接用`coding pages`呢？鉴于服务稳定性以及`Github`挺给力的`cdn`加速，暂时没有这方面的打算。
-> ![添加域名解析](https://ooo.0o0.ooo/2017/07/04/595b6241cd4c4.png)
+> ![添加域名解析](https://ooo.0o0.ooo/2017/07/05/595ce63668cb8.png)
 > 之所以采用这个方案，也是对比了一下，觉得这个比较靠谱，说说我的比较过程吧
 > 1. 利用阿里云进行域名解析，不过针对百度的解析，好像支持的并不好，所以放弃了
 > 2. 七牛云等`cdn`加速，由于域名未备案，所以直接就`pass`了
@@ -51,4 +51,4 @@ git remote set-url --add --push origin ****
 
 <br/><br/>
 不知道有没有人懂这种心情，都快哭了。好了，就这样吧，观察几天看看有没有问题，没问题的话，此贴就可以终结了，如果还有问题，那估计过几天你们就看不到这张帖子了。笑哭。。。。🤣
-![百度抓取](https://ooo.0o0.ooo/2017/07/04/595b62e6d5de7.png)
+![百度抓取](https://ooo.0o0.ooo/2017/07/05/595ce6610f1b7.png)
