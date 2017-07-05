@@ -659,12 +659,30 @@ table td, th {
             border-bottom: 1px solid currentColor;
         }
     }
-    a:link, a:visited {
-        color: #999;
-        border-bottom: 1px solid currentColor;
+    li {
+        a:link, a:visited {
+            color: #999;
+            border-bottom: 1px solid currentColor;
+        }
     }
     a:hover, a:active {
         color: #f5f5f5;
+    }
+    li.active > a:link,
+    li.active > a:visited {
+        color: #87daff;
+    }
+    .toc_level-2 {
+        text-indent: 1em;
+    }
+    .toc_level-3 {
+        text-indent: 2em;
+    }
+    .toc_level-4 {
+        text-indent: 3em;
+    }
+    .toc_level-5 {
+        text-indent: 4em;
     }
 }
 

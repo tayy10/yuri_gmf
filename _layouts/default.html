@@ -33,13 +33,14 @@
         <!-- 引入header部分 -->
         {% include header.html %}
             <!-- 内容部分 -->
-        <div class="content-main">
+        <div class="content-main" data-spy="scroll" data-target="#toc-container">
             <div class="content-1020 content-auto">
                 {{ content | toc_generate }}  
             </div>         
         </div>
     </div>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/res/j/bootstrap.min.js"></script>
     <script>
         (function() {
             var _bodyEle = $('body'),
@@ -109,7 +110,9 @@
 
             _wrapperEle.on('click', '.icon-top', function() {
                 $('.content-main').animate({scrollTop: 0}, 500);
-            })
+            });
+
+
             // $('.icon-top').click(function() {
             //     // console.log(111);
                 
