@@ -311,7 +311,7 @@ baz | baz  | baz
                     $('.icon-top').addClass('hidden');
             });
 
-            _wrapperEle.bind('click', '.icon-top', function() {
+            _wrapperEle.on('click', '.icon-top', function() {
                 $('.content-main').animate({scrollTop: 0}, 500);
             })
             // $('.icon-top').click(function() {

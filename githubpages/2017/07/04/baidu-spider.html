@@ -222,7 +222,7 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
                     $('.icon-top').addClass('hidden');
             });
 
-            _wrapperEle.bind('click', '.icon-top', function() {
+            _wrapperEle.on('click', '.icon-top', function() {
                 $('.content-main').animate({scrollTop: 0}, 500);
             })
             // $('.icon-top').click(function() {
