@@ -57,7 +57,7 @@
     </div>
 </header>
             <!-- 内容部分 -->
-        <div class="content-main">
+        <div class="content-main" data-spy="scroll" data-target="#toc-container">
             <div class="content-1020 content-auto">
                 <div id="toc-container">
   <table class="toc" id="toc">
@@ -67,7 +67,7 @@
           <div id="toctitle">
             <h2>文章目录</h2>
           </div>
-          <ul>
+          <ul class="nav">
             <li class="toc_level-1 toc_section-1">
               <a href="#tocAnchor-1-1"><span class="tocnumber">1</span> <span class="toctext">Jekyll神坑</span></a>
               <ul>
@@ -135,6 +135,7 @@
         </div>
     </div>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/res/j/bootstrap.min.js"></script>
     <script>
         (function() {
             var _bodyEle = $('body'),
@@ -204,7 +205,9 @@
 
             _wrapperEle.on('click', '.icon-top', function() {
                 $('.content-main').animate({scrollTop: 0}, 500);
-            })
+            });
+
+
             // $('.icon-top').click(function() {
             //     // console.log(111);
                 
