@@ -1,6 +1,9 @@
 ---
 ---
 @import 'highlight';
+.hidden {
+    display: none !important;
+}
 
 * {
     margin: 0;
@@ -58,11 +61,11 @@ body {
 }
 header {
     width: 100%;
-    line-height: 92px;
     background-color: #F5F5F5;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 header .content-header {
     max-width: 1020px;
@@ -70,6 +73,7 @@ header .content-header {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
+    font-size: 0;
     margin: 0 auto;
 }
 header .logo {
@@ -77,6 +81,7 @@ header .logo {
     font-size: 18px;
     font-weight: 500;
     padding: 0 15px;
+    line-height: 92px;    
     position: relative;
     overflow: hidden;
 }
@@ -124,6 +129,7 @@ header .logo::after {
 }
 
 header nav {
+    font-size: 14px;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     flex: 1;
@@ -136,7 +142,12 @@ header nav {
     -o-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
     opacity: 0;
-    visibility: hidden
+    visibility: hidden;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select:none;
+    user-select: none;
 }
 .loaded header nav {
     -webkit-transform: none;
@@ -471,4 +482,99 @@ table td, th {
     border: 1px solid #dddddd;
     line-height: 20px;
     vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 640px){
+    header {
+        .content-header {
+            display: block;
+        }
+        .nav-logo-container {
+            // height: 92px;
+            width: 25px;
+            padding: 0 10px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 15px;
+            &.nav-close {
+                .nav-logo {
+                    height: 0;
+                    &::before {
+                        -webkit-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                        top: 0;
+                    }
+                    &::after {
+                        top: 0;
+                        -webkit-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+            .nav-logo {
+                display: block;
+                width: 25px;
+                height: 2px;
+                color: #333;
+                background-color:currentColor;
+                position: absolute;
+                right: 10px;
+                top: (90px / 2);
+                // top: 50%;
+                // -o-transform: translateY(-50%);
+                // -moz-transform: translateY(-50%);
+                // -webkit-transform: translateY(-50%);
+                // transform: translateY(-50%);
+                &::before,
+                &::after {
+                    display: block;
+                    content: '';
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    top: -10px;
+                    left: 0;
+                    background-color: currentColor;
+                }
+                &::after {
+                    top: 10px;
+                }
+            }
+        }
+        nav {
+            display: none;
+            -o-transform: none;
+            -moz-transform: none;
+            -webkit-transform: none;
+            transform: none;
+            visibility: visible;
+            &.show {
+                display: block;
+            }
+            ul {
+                width: 100%;
+                display: block;
+                height: auto;
+                float: none;
+                li {
+                    text-align: left;
+                    &::before,
+                    &::after {
+                        display: none
+                    }
+                    svg {
+                        display: none;
+                    }
+                    a {
+                        &::before,
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

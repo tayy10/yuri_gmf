@@ -5,7 +5,7 @@ categories: GithubPages
 tag: [github pages, spider, 百度蜘蛛]
 excerpt_separator: <!--more-->
 description: Github Pages如何被百度收录
-keywords: github pages,蜘蛛,百度,coding,cname
+keywords: githubPages,蜘蛛,百度,coding,cname
 ---
 # Github Pages 不被百度蜘蛛抓取的问题
 由于之前的利用百度统计导致的针对`Github`的`DDos`攻击事件，`Github`屏蔽了百度蜘蛛对于`Github Pages`的爬取收录，这对国内使用`Github Pages`的用户无疑是一个巨大的打击。
