@@ -10,7 +10,7 @@
     <meta name="keywords" content="githubPages,蜘蛛,百度,coding,cname">
     <meta name="description" content="Github Pages如何被百度收录">
     <link rel="canonical" href="/githubpages/2017/07/04/baidu-spider.html">
-    <link rel="stylesheet" href="/res/c/index.css#20170616_01">
+    <link rel="stylesheet" href="/res/c/index.css#20170706">
     <script>(function(win,doc){win.YYRUM={};YYRUM.info={appId:'pAJOSEVdgDXi6N7Gzj4tAwu73Odayb08',beacon:'https://web.uyun.cn/connect',agent:'https://web.uyun.cn/buriedPoint/YYRUM.js'};var loadSource={createScript:function(src){var d=doc,f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.type='text/javascript';s.src=src; f.parentNode.insertBefore(s,f);return s;}};var script=loadSource.createScript(YYRUM.info.agent);win.onerror=function(msg, url,line,col,error){YYRUM.info.errorData={msg:msg,url:url,line:line,col:col,error:error}};if(script.readyState){script.onreadystatechange=function(){if(script.readyState=='loaded'||script.readyState=='complete'){script.onreadystatechange=null; YYRUM.report.installGlobalHandler()}};}else{script.onload=function(){YYRUM.report.installGlobalHandler()};}})(window,document)</script>
     <!--添加百度推送-->
     <script>
@@ -106,9 +106,9 @@
       <h3 id="首先第一步需要在github上新建一个项目这个问题应该不大吧既然都用github-pages了这一步就不重复赘述了">首先第一步，需要在<code class="language-markdown highlighter-rouge">Github</code>上新建一个项目，这个问题应该不大吧，既然都用<code class="language-markdown highlighter-rouge">Github Pages</code>了，这一步就不重复赘述了。</h3>
 
       <h3 id="其次第二步在codingnet中从github导入项目">其次第二步，在<code class="language-markdown highlighter-rouge">coding.net</code>中从<code class="language-markdown highlighter-rouge">Github</code>导入项目</h3>
-      <p><img src="https://ooo.0o0.ooo/2017/07/05/595ce5dcb28a9.png" alt="导入项目" /></p>
+      <p><img class="lazy-load" src="/res/i/blank.gif" data-src="https://ooo.0o0.ooo/2017/07/05/595ce5dcb28a9.png" alt="导入项目" /></p>
       <h3 id="第三步开启coding的pages服务coding的pages服务跟github的pages服务的区别在于coding使用的分支是master或coding-pagesgithub使用的分支是master跟gh-pages为了统一建议使用master分支">第三步，开启<code class="language-markdown highlighter-rouge">coding</code>的<code class="language-markdown highlighter-rouge">pages</code>服务，<code class="language-markdown highlighter-rouge">coding</code>的<code class="language-markdown highlighter-rouge">pages</code>服务跟<code class="language-markdown highlighter-rouge">Github</code>的<code class="language-markdown highlighter-rouge">pages</code>服务的区别在于：<code class="language-markdown highlighter-rouge">coding</code>使用的分支是<code class="language-markdown highlighter-rouge">master</code>或<code class="language-markdown highlighter-rouge">coding-pages</code>,<code class="language-markdown highlighter-rouge">Github</code>使用的分支是<code class="language-markdown highlighter-rouge">master</code>跟<code class="language-markdown highlighter-rouge">gh-pages</code>,为了统一，建议使用<code class="language-markdown highlighter-rouge">master</code>分支。</h3>
-      <p><img src="https://ooo.0o0.ooo/2017/07/05/595ce60dd86a9.png" alt="设置`pages`分支及自定义域名" /><br />
+      <p><img class="lazy-load" src="/res/i/blank.gif" data-src="https://ooo.0o0.ooo/2017/07/05/595ce60dd86a9.png" alt="设置pages分支及自定义域名" /><br />
 PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
       <ol>
         <li>分支跟<code class="language-markdown highlighter-rouge">github</code>不一样</li>
@@ -133,7 +133,8 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
   <h3 id="第五步通过dnspod对域名进行解析">第五步，通过<code class="language-markdown highlighter-rouge">DNSPod</code>对域名进行解析</h3>
   <p>添加<code class="language-markdown highlighter-rouge">CNAME</code>解析，针对百度解析值<code class="language-markdown highlighter-rouge">pages.coding.me</code>，其余的解析到<code class="language-markdown highlighter-rouge">github.io</code>。<br />
 可能有人要问，为啥不直接用<code class="language-markdown highlighter-rouge">coding pages</code>呢？鉴于服务稳定性以及<code class="language-markdown highlighter-rouge">Github</code>挺给力的<code class="language-markdown highlighter-rouge">cdn</code>加速，暂时没有这方面的打算。<br />
-<img src="https://ooo.0o0.ooo/2017/07/05/595ce63668cb8.png" alt="添加域名解析" /><br />
+<!--> ![添加域名解析](https://ooo.0o0.ooo/2017/07/05/595ce63668cb8.png)--><br />
+<img class="lazy-load" src="/res/i/blank.gif" data-src="https://ooo.0o0.ooo/2017/07/05/595ce63668cb8.png" alt="添加域名解析" /><br />
 之所以采用这个方案，也是对比了一下，觉得这个比较靠谱，说说我的比较过程吧</p>
   <ol>
     <li>利用阿里云进行域名解析，不过针对百度的解析，好像支持的并不好，所以放弃了</li>
@@ -144,7 +145,8 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
 
 <p><br /><br /><br />
 不知道有没有人懂这种心情，都快哭了。好了，就这样吧，观察几天看看有没有问题，没问题的话，此贴就可以终结了，如果还有问题，那估计过几天你们就看不到这张帖子了。笑哭。。。。🤣<br />
-<img src="https://ooo.0o0.ooo/2017/07/05/595ce6610f1b7.png" alt="百度抓取" /></p>
+<!--![百度抓取](https://ooo.0o0.ooo/2017/07/05/595ce6610f1b7.png)--><br />
+<img class="lazy-load" src="/res/i/blank.gif" data-src="https://ooo.0o0.ooo/2017/07/05/595ce6610f1b7.png" alt="百度抓取" /></p>
 
     <aside class="sidebar">
     <div class="icon-aside icon-sidebar icon-active"><div class="switch-sidebar"></div></div>
@@ -154,16 +156,23 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
             </div>         
         </div>
     </div>
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/res/j/bootstrap.min.js"></script>
+    <script src="/res/j/jquery.min.js#20170707"></script>
+    <script src="/res/j/bootstrap.min.js#20170706"></script>
+    <!--<script src="/res/j/jquery.lazyload.js#20170706"></script>-->
+    <!--<script src="/res/j/lazy.min.js"></script>-->
     <script>
         (function() {
             var _bodyEle = $('body'),
                 _wrapperEle = $('.content-main');
 
-            window.onload = function() {
+            // window.onload = function() {
+            //     _bodyEle.addClass("loaded");
+            // }
+            $(document).ready(function() {
                 _bodyEle.addClass("loaded");
-            }
+                // console.log($("img.lazy-load").lazyload);
+                // $("img.lazy-load").lazyload();
+            })
 
             // console.log(document.querySelector('.nav-logo-container'));
             var _navEle = $('.nav-logo-container'),
@@ -221,6 +230,21 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
                     $('.icon-top').removeClass('hidden');
                 else
                     $('.icon-top').addClass('hidden');
+
+                // 简易的添加一个图片懒加载
+                var _img = $('.lazy-load');
+
+                _img.each(function() {
+                    var _src = $(this).data('src'),
+                        _imgTop = $(this).offset().top,
+                        _windowHeight = $(window).height(),
+                        _ifElse = (_s + _windowHeight) >= _imgTop + 200,
+                        _t = this;
+                    // this.src = _src;
+                    if (_ifElse) {
+                        this.src= _src;
+                    }
+                });
             });
 
             _wrapperEle.on('click', '.icon-top', function() {
@@ -232,7 +256,7 @@ PS:<code class="language-markdown highlighter-rouge">coding</code>的坑：</p>
             //     // console.log(111);
                 
             // });
-        })();
+        })(window);
     </script>
 </body>
 </html>
