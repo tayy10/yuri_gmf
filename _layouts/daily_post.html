@@ -1,3 +1,22 @@
 ---
 layout: default
 ---
+<h2 class="title tc">{{ page.title }}：{{ page.date | date: "%Y年%m月%d日" }}</h2>
+<div class="daily_post row clearfix">
+    <div class="row-music row-child">
+        <div class="container-img">
+            <img src="{{ page.music_album }}" alt="歌曲图片">
+        </div>
+        <audio controls src="{{ page.music_src }}" autoplay loop>
+            你的浏览器不支持在线播放
+        </audio>
+        <h3>歌名：{{ page.music_name }}</h3>
+    </div>
+    <div class="row-txt row-child">
+        <div class="txt">{{ content }}</div>
+    </div>
+    <div class="row-pic row-child">
+        <img src="{{page.pic_src}}" alt="IMG_0672.JPG" title="IMG_0672.JPG" />
+        <a class="btn_download" href="{{ page.pic_src }}" download=""></a>
+    </div>
+</div>

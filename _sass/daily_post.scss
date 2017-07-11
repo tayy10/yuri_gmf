@@ -1,0 +1,97 @@
+.daily_post {
+    font-size: 0;
+    h3 {
+        // font-size: 18px;
+        font-weight: normal;
+        color: #415560;
+        margin: 5px 0;
+        padding-left: 8px;
+    }
+    .row-child {
+        width: 30%;
+        float: left;
+        height: 380px;
+        border: 1px solid #eaeaea;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        margin-left: 4%;
+        overflow: hidden;
+        // width: 33%;
+        &:first-child {
+            margin-left: 0;
+        }
+        * {
+            width: 100%;
+        }
+        img {
+            height: 310px;
+        }
+        h3, h1, h2, h4 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .row-txt {
+        position: relative;
+        text-align: center;
+        .txt {
+            line-height: 1.8;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            -moz-transform: translate3d(-50%, -50%, 0);
+            -ms-transform: translate3d(-50%, -50%, 0);
+            -o-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+        }
+    }
+    .row-pic {
+        position: relative;
+        &:hover {
+            opacity: .7;
+            > .btn_download {
+                display: block;
+                font-size: 18px;
+                width: 50px;
+                height: 50px;
+                background: url('data:image/svg+xml;utf8,<svg t="1499768510798" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1014" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css"></style></defs><path d="M957.624267 625.964588c-1.270946-23.396873-20.243043-42.10905-43.956118-42.10905-23.713075 0-42.685171 18.712177-43.956118 42.10905l-0.467651 0 0 194.543811c0 23.860431-16.116049 43.296085-35.920094 43.296085L190.676737 863.804485c-19.803022 0-35.922141-19.435655-35.922141-43.296085L154.754596 625.964588l-0.467651 0c-1.270946-23.396873-20.240997-42.10905-43.956118-42.10905-23.713075 0-42.685171 18.712177-43.956118 42.10905l-0.467651 0 0 194.543811c0 72.882937 55.963593 132.142599 124.768655 132.142599l642.647549 0c68.803016 0 124.766608-59.260685 124.766608-132.142599L958.089871 625.964588 957.624267 625.964588z" p-id="1015" fill="#2c2c2c"></path><path d="M497.875305 805.104571c3.521197 4.102435 8.695033 6.497994 14.121626 6.497994s10.600429-2.39556 14.121626-6.497994l250.309906-292.856931c4.719488-5.517667 5.789866-13.286608 2.758834-19.857257-3.031033-6.607488-9.620102-10.818393-16.880459-10.818393L620.434641 481.57199 620.434641 105.108896c0-20.547988-16.645099-37.174668-37.174668-37.174668l-142.526087 0c-20.529569 0-37.174668 16.626679-37.174668 37.174668l0 376.463094L261.688048 481.57199c-7.260357 0-13.849426 4.210905-16.880459 10.818393-3.031033 6.570649-1.960655 14.33959 2.758834 19.857257L497.875305 805.104571z" p-id="1016" fill="#2c2c2c"></path></svg>') no-repeat center;
+                position: absolute;
+                background-size: 50px;
+                top: 50%;
+                left: 50%;
+                margin-top: -25px;
+                margin-left: -25px;
+                z-index: 99;
+                opacity: 1;
+            }
+        }
+        img {
+            width: auto;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translate(-50%, 0);
+            -moz-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+    }
+}
+
+.clearfix:after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+@media only screen and (max-width: 640px) {
+    .daily_post {
+        .row-child {
+            width: 80%;
+            float: none;
+            margin: 30px auto !important;
+        }
+        .row-pic {
+            height: auto;
+        }
+    }
+}
