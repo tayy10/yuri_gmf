@@ -13,7 +13,7 @@ noToc: true
                 {% for post in cat.last %}
                     <article>
                         <div class="dot"></div>
-                        <a href="{{ site.baseurl }}{{ post.url }}"><time datetime="{{post.date}}">{{post.date | date: "%m-%d"}}</time>{{ post.title }}</a>
+                        <a href="{{ site.url }}{{ post.url }}"><time datetime="{{post.date}}">{{post.date | date: "%m-%d"}}</time>{{ post.title }}</a>
                     </article>
                 {% endfor %}
             {% endif %}
