@@ -10,7 +10,7 @@
     .row-child {
         width: 30%;
         float: left;
-        height: 380px;
+        height: 395px;
         border: 1px solid #eaeaea;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         margin-left: 4%;
@@ -93,6 +93,12 @@
         }
         .row-pic {
             height: auto;
+            img {
+                width: 100%;
+                height: auto;
+                position: static;
+                transform: none;
+            }
         }
     }
 }
