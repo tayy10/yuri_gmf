@@ -11,6 +11,7 @@ music_name: 说散就散
 music_src: http://music.163.com/song/media/outer/url?id=468513829.mp3
 music_album: http://p1.music.126.net/LSBrAS5oxxQHouvqLDR4lA==/19095218439644352.jpg
 pic_src: https://i.loli.net/2017/07/12/596602a13a7ca.jpg
+pic_alt: 每日推荐美图
 ---
 
 有人问我

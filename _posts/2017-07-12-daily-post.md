@@ -11,6 +11,7 @@ music_name: Set Sail
 music_src: http://music.163.com/song/media/outer/url?id=34834414.mp3
 music_album: http://p1.music.126.net/tRL92bjYHOFzrKzfNSEoPg==/3400789471685993.jpg
 pic_src: https://i.loli.net/2017/07/12/59658ac3e1369.jpg
+pic_alt: 每日推荐美图
 ---
 
 每想你一次

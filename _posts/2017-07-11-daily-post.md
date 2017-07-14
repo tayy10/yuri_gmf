@@ -11,6 +11,7 @@ music_name: Little Talks
 music_src: http://music.163.com/song/media/outer/url?id=34040349.mp3
 music_album: http://p1.music.126.net/0Q18m4HlE9F0w5GxPHeskw==/3273246116170811.jpg
 pic_src: https://ooo.0o0.ooo/2017/07/11/5964a2b22af15.jpg
+pic_alt: 每日推荐美图
 ---
 
 当我拥有你
