@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://www.yygmf.top/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.yygmf.top/" rel="alternate" type="text/html" /><updated>2017-07-17T08:56:56+08:00</updated><id>http://www.yygmf.top/</id><title type="html">Yuri</title><subtitle>yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
-</subtitle><entry><title type="html">每日精选</title><link href="http://www.yygmf.top/dailyposts/2017/07/15/daily-post.html" rel="alternate" type="text/html" title="每日精选" /><published>2017-07-15T00:00:00+08:00</published><updated>2017-07-15T00:00:00+08:00</updated><id>http://www.yygmf.top/dailyposts/2017/07/15/daily-post</id><content type="html" xml:base="http://www.yygmf.top/dailyposts/2017/07/15/daily-post.html">&lt;p&gt;青春的力量无可压抑&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://www.yygmf.top/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.yygmf.top/" rel="alternate" type="text/html" /><updated>2017-07-17T14:04:39+08:00</updated><id>http://www.yygmf.top/</id><title type="html">Yuri</title><subtitle>yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
+</subtitle><entry><title type="html">每日精选</title><link href="http://www.yygmf.top/dailyposts/2017/07/17/daily-post.html" rel="alternate" type="text/html" title="每日精选" /><published>2017-07-17T00:00:00+08:00</published><updated>2017-07-17T00:00:00+08:00</updated><id>http://www.yygmf.top/dailyposts/2017/07/17/daily-post</id><content type="html" xml:base="http://www.yygmf.top/dailyposts/2017/07/17/daily-post.html">&lt;p&gt;在变幻的生命里&lt;br /&gt;
+岁月&lt;br /&gt;
+原是最大的小偷&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+《岁月神偷》&lt;/p&gt;</content><author><name></name></author><category term="dailyPosts" /><summary type="html">在变幻的生命里 岁月 原是最大的小偷 《岁月神偷》</summary></entry><entry><title type="html">每日精选</title><link href="http://www.yygmf.top/dailyposts/2017/07/15/daily-post.html" rel="alternate" type="text/html" title="每日精选" /><published>2017-07-15T00:00:00+08:00</published><updated>2017-07-15T00:00:00+08:00</updated><id>http://www.yygmf.top/dailyposts/2017/07/15/daily-post</id><content type="html" xml:base="http://www.yygmf.top/dailyposts/2017/07/15/daily-post.html">&lt;p&gt;青春的力量无可压抑&lt;br /&gt;
 即便是地狱&lt;br /&gt;
 也能变成天堂&lt;br /&gt;
 &lt;br /&gt;&lt;br /&gt;
@@ -144,130 +148,4 @@ PS:&lt;code class=&quot;language-markdown highlighter-rouge&quot;&gt;coding&lt;/
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="bug" /><category term="jekyll" /><summary type="html">Jekyll神坑 先说说百度到的最多的说法： 文件编码格式问题：UTF-8 without BOM 自己检测文件编码无问题，错位未解决 标签未闭合 自己检测标签都已闭合，错位未解决</summary></entry><entry><title type="html">我为什么放弃前端工程师</title><link href="http://www.yygmf.top/diary/2017/06/15/diary.html" rel="alternate" type="text/html" title="我为什么放弃前端工程师" /><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><id>http://www.yygmf.top/diary/2017/06/15/diary</id><content type="html" xml:base="http://www.yygmf.top/diary/2017/06/15/diary.html">&lt;h1 id=&quot;hahaha&quot;&gt;hahaha&lt;/h1&gt;
 &lt;!--more--&gt;
-&lt;p&gt;123&lt;/p&gt;</content><author><name></name></author><category term="diary" /><summary type="html">hahaha</summary></entry><entry><title type="html">Markdown 常用命令指南</title><link href="http://www.yygmf.top/markdown/2017/06/01/diary.html" rel="alternate" type="text/html" title="Markdown 常用命令指南" /><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><id>http://www.yygmf.top/markdown/2017/06/01/diary</id><content type="html" xml:base="http://www.yygmf.top/markdown/2017/06/01/diary.html">&lt;h1 id=&quot;1标题&quot;&gt;1.标题&lt;/h1&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# 一级标题&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;## 二级标题&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;### 三级标题&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;#### 四级标题&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;##### 五级标题&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;###### 六级标题&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;!--more--&gt;
-
-&lt;h1 id=&quot;2-列表&quot;&gt;2. 列表&lt;/h1&gt;
-&lt;h2 id=&quot;1-无序列表&quot;&gt;1. 无序列表&lt;/h2&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 文本1
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 文本2
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 文本3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;2-有序列表&quot;&gt;2. 有序列表&lt;/h2&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; 文本1
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; 文本2
-&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; 文本3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;3-链接和图片&quot;&gt;3. 链接和图片&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;超链接
-    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;百度&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.baidu.com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;图片
-    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;!&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;](图片链接地址)
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;4-引用&quot;&gt;4. 引用&lt;/h1&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;5-粗体和斜体&quot;&gt;5. 粗体和斜体&lt;/h1&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ge&quot;&gt;*斜体*&lt;/span&gt;
-&lt;span class=&quot;gs&quot;&gt;**粗体**&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;6-代码引用&quot;&gt;6. 代码引用&lt;/h1&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;单行代码使用&lt;span class=&quot;sb&quot;&gt;`...`&lt;/span&gt;包裹
-多行代码使用&lt;span class=&quot;sb&quot;&gt;```...```&lt;/span&gt;包裹
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;7-表格&quot;&gt;7. 表格&lt;/h1&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tables&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 3 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 2 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;zebra stripes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dog | bird | cat
-----|------|----
-foo | foo  | foo
-bar | bar  | bar
-baz | baz  | baz
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;dog&lt;/th&gt;
-      &lt;th&gt;bird&lt;/th&gt;
-      &lt;th&gt;cat&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;foo&lt;/td&gt;
-      &lt;td&gt;foo&lt;/td&gt;
-      &lt;td&gt;foo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;bar&lt;/td&gt;
-      &lt;td&gt;bar&lt;/td&gt;
-      &lt;td&gt;bar&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;baz&lt;/td&gt;
-      &lt;td&gt;baz&lt;/td&gt;
-      &lt;td&gt;baz&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="usage" /><category term="markdown" /><summary type="html">1.标题 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题</summary></entry></feed>
+&lt;p&gt;123&lt;/p&gt;</content><author><name></name></author><category term="diary" /><summary type="html">hahaha</summary></entry></feed>
