@@ -2,7 +2,7 @@
 layout: post
 title: Github Pages如何被百度收录
 categories: GithubPages
-tag: [github pages, spider, 百度蜘蛛]
+tag: [githubpages, spider, 百度蜘蛛]
 excerpt_separator: <!--more-->
 description: Github Pages如何被百度收录
 keywords: githubPages,蜘蛛,百度,coding,cname
