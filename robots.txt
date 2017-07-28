@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /tag.html
+Disallow: /categories.html
+Disallow: /archive.html
+Disallow: /categories/
+Disallow: /tag/
+Sitemap: http://www.yygmf.top/sitemap.xml
