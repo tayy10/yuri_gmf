@@ -9,6 +9,8 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased; /*chrome、safari*/
+    -moz-osx-font-smoothing: grayscale;/*firefox*/
 }
 ul > li {
     list-style: none;
