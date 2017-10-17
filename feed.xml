@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://www.yygmf.top/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.yygmf.top/" rel="alternate" type="text/html" /><updated>2017-10-17T17:02:46+08:00</updated><id>http://www.yygmf.top/</id><title type="html">Yuri</title><subtitle>yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
-</subtitle><entry><title type="html">动态桌面软件推荐</title><link href="http://www.yygmf.top/%E5%B7%A5%E5%85%B7/2017/10/17/%E5%8A%A8%E6%80%81%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.html" rel="alternate" type="text/html" title="动态桌面软件推荐" /><published>2017-10-17T00:00:00+08:00</published><updated>2017-10-17T00:00:00+08:00</updated><id>http://www.yygmf.top/%E5%B7%A5%E5%85%B7/2017/10/17/%E5%8A%A8%E6%80%81%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90</id><content type="html" xml:base="http://www.yygmf.top/%E5%B7%A5%E5%85%B7/2017/10/17/%E5%8A%A8%E6%80%81%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.html">&lt;p&gt;&lt;img class=&quot;lazy-load&quot; src=&quot;/res/i/blank.gif&quot; data-src=&quot;https://i.loli.net/2017/10/17/59e5be4a1113a.png&quot; alt=&quot;Wallpaper Engine&quot; /&gt;&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://www.yygmf.top/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.yygmf.top/" rel="alternate" type="text/html" /><updated>2017-10-17T17:12:50+08:00</updated><id>http://www.yygmf.top/</id><title type="html">Yuri</title><subtitle>yuri博客专注于记录自己的一些日志，以及一些前端包括html、css、js的相关技术文章。
+</subtitle><entry><title type="html">动态桌面软件推荐</title><link href="http://www.yygmf.top/%E5%B7%A5%E5%85%B7/2017/10/17/%E5%8A%A8%E6%80%81%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.html" rel="alternate" type="text/html" title="动态桌面软件推荐" /><published>2017-10-17T00:00:00+08:00</published><updated>2017-10-17T00:00:00+08:00</updated><id>http://www.yygmf.top/%E5%B7%A5%E5%85%B7/2017/10/17/%E5%8A%A8%E6%80%81%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90</id><content type="html" xml:base="http://www.yygmf.top/%E5%B7%A5%E5%85%B7/2017/10/17/%E5%8A%A8%E6%80%81%E6%A1%8C%E9%9D%A2%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.html">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2017/10/17/59e5be4a1113a.png&quot; alt=&quot;Wallpaper Engine&quot; /&gt;&lt;br /&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Wallpaper Engine&lt;br /&gt;
@@ -7,13 +7,13 @@
 &lt;/ol&gt;
 
 &lt;p&gt;对，你没有看错，&lt;strong&gt;视频&lt;/strong&gt;也可以奥。先来看个例子，咱自用的背景。&lt;/p&gt;
-&lt;video src=&quot;http://ormvr48rd.bkt.clouddn.com/bandicam%202017-10-17%2016-03-04-849.mp4&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+&lt;video src=&quot;http://ormvr48rd.bkt.clouddn.com/bandicam%202017-10-17%2016-03-04-849.mp4&quot; preload=&quot;&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
 
 &lt;p&gt;当然还有这样的&lt;/p&gt;
-&lt;video src=&quot;http://ormvr48rd.bkt.clouddn.com/bandicam%202017-10-17%2016-47-21-559.mp4&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+&lt;video src=&quot;http://ormvr48rd.bkt.clouddn.com/bandicam%202017-10-17%2016-47-21-559.mp4&quot; preload=&quot;&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
 
 &lt;p&gt;再来看看资源占用&lt;br /&gt;
-&lt;img class=&quot;lazy-load&quot; src=&quot;/res/i/blank.gif&quot; data-src=&quot;https://i.loli.net/2017/10/17/59e5bdd58055f.png&quot; alt=&quot;Wallpaper Engine&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://i.loli.net/2017/10/17/59e5bdd58055f.png&quot; alt=&quot;Wallpaper Engine&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;最重要的是支持创意工坊。创意工坊为Wallpaper Engine提供了大量的资源, 而且用户也能很方便的在创意工坊里找到自己喜欢的资源，特别是现在有了类型分类，喜欢风景就去Landscape, 喜欢动漫就去Anime分类，可以说比在网上找资源容易多了。&lt;/p&gt;
 
